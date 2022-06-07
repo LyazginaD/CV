@@ -8,12 +8,13 @@
 body {
     background-color: rgb(255, 255, 255);
     color: rgb(99, 90, 87);
-font-size: 3vw;
-font-weight: normal;
-font-family:'Roboto', sans-serif;
-padding: 1vw
+    font-size: 3vw;
+    font-weight: normal;
+    font-family:'Roboto', sans-serif;
+    padding: 1vw
 /*font: normal 14px 'Roboto', sans-serif*/
 }
+
 
 a {
     color:rgb(99, 90, 87);
@@ -90,7 +91,7 @@ a:active {
     padding: 1vw;
     margin-bottom: 2vw;
     border-radius: 2vw;
-    width: 70%; 
+    width: 85%; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -118,6 +119,7 @@ a:active {
 
 .contacty {
     padding: 2vw 4vw;
+    text-align: center;
 }
 
 .form-group {
@@ -156,5 +158,6 @@ a:active {
     border-radius: 1.5vw;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     font-family: inherit;
-    position:relative;  
+    position: relative;  
 }
+
