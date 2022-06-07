@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/** {
+    padding: 0;
+    margin: 0;
+}*/
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(99, 90, 87);
+font-size: 3vw;
+font-weight: normal;
+font-family:'Roboto', sans-serif;
+padding: 1vw
+/*font: normal 14px 'Roboto', sans-serif*/
+}
+
+a {
+    color:rgb(99, 90, 87);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active { 
+    color: rgb(99, 90, 87);
+}
+
+/*a:visited {
+    color:#86898f;
+}*/
+
+.avatar {
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    padding: auto;
+}
+
+.gb-info {
+    color: rgb(116, 106, 103);
+    margin: 2vw;
+    margin-bottom: 3vw;
+    background: rgb(248, 247, 240);
+    /*text-transform: capitalize;*/
+}
+
+/*.social {*/
+    /*background: #a79ca4;*/
+    /*padding: 15px;*/
+    /*padding: 15px 40px;*/
+    /*padding: 15px 20px 25px 30px;
+    border: 10px double rgb(105, 91, 105);
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 25px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}*/
+
+.gb-hobby {
+    background: rgb(233, 230, 214);
+}
+
+.gb-experirnce {
+    background: rgb(221, 228, 215);
+}
+
+.gb-cotnacts {
+    background: rgb(230, 223, 220);
+    text-align: center;
+}
+
+.gb-contactme {
+    background: rgb(221, 228, 215);
+}
+
+.gb-social {
+    background: rgb(233, 232, 227);
+}
+
+.card {
+    padding: 1vw;
+    margin-bottom: 2vw;
+    border-radius: 2vw;
+    width: 70%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.card h2 {
+    margin-bottom: 1vw;
+    padding: 2vw 4vw;
+}
+
+.table {
+    width: 100%;
+    padding: 1vw 2vw;
+}
+
+.table td {
+    padding: 2vw;
+}
+
+.tablehead {
+    font-weight: bold;
+}
+
+.h1 {
+    font-size:large;
+}
+
+.contacty {
+    padding: 2vw 4vw;
+}
+
+.form-group {
+    padding: 0vw 4vw 2vw;
+}
+.form-group label {
+    display: block;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(116, 106, 103);
+    color: rgb(116, 106, 103);
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.bttn {
+    padding: 2vw 4vw;
+    width: 88%;
+    margin: 1vw 4vw 2vw;
+    color: rgb(116, 106, 103);
+    border-color: rgb(116, 106, 103);
+    border-radius: 1.5vw;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+    position:relative;  
+}
